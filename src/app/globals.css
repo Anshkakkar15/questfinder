@@ -1,0 +1,56 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 9, 9, 9;
+}
+
+body {
+  background: rgb(var(--foreground-rgb));
+  overflow-x: hidden;
+}
+
+.gradient-border {
+  background-image: linear-gradient(90deg,
+      rgba(15, 240, 217, 1) 0%,
+      rgba(163, 87, 245, 1) 100%);
+  border-radius: 40px;
+  color: #fff;
+  padding: 2px;
+  position: relative;
+  text-decoration: none;
+  z-index: 2;
+}
+
+.gradient-border:hover {
+  color: #fff;
+}
+
+.gradient-button {
+  align-items: center;
+  background: #000;
+  border-radius: 40px;
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  transition: background 0.5s ease;
+  width: 100%;
+}
+
+.gradient-border:hover .gradient-button {
+  background: transparent;
+}
+
+.gradient-text {
+  background: linear-gradient(to right, #0ff0d9,
+      #a357f5) !important;
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+}
+
+.gradient-background {
+  background-image: linear-gradient(90deg,
+      rgba(15, 240, 217, 1) 0%,
+      rgba(163, 87, 245, 1) 100%);
+}
