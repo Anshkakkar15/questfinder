@@ -6,7 +6,7 @@ import Image from "next/image";
 export default function Profile() {
   return (
     <div className="bg-[#090909]">
-      <div className="container mx-auto max-w-4xl px-2 py-5 sm:px-3 sm:py-7 md:px-4 md:py-8 lg:max-w-6xl lg:px-5 lg:py-9 xl:max-w-[1500px] xl:py-10">
+      <div className="container mx-auto max-w-4xl py-5 sm:py-7 md:py-8 lg:max-w-6xl lg:py-9 xl:max-w-[1500px] xl:py-10">
         <div className="grid grid-cols-1 gap-5 xl:grid-cols-2 2xl:gap-7">
           <CharacterAvatar />
           <CharacterDetails />
@@ -18,7 +18,7 @@ export default function Profile() {
 
 const CharacterAvatar = () => {
   return (
-    <div className="monster_bg relative mx-auto max-h-[575px] max-w-[400px] overflow-hidden rounded-2xl xl:max-h-[500px] xl:max-w-full 2xl:max-h-[700px] 3xl:max-h-[800px]">
+    <div className="monster_bg relative mx-auto max-h-[575px] max-w-[400px] overflow-hidden rounded-2xl xl:max-h-[600px] xl:max-w-full 2xl:max-h-[800px]">
       <Image
         src={ASSETS.MONSTER_IMG}
         alt="monster"
