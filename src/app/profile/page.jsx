@@ -35,7 +35,7 @@ const CharacterAvatar = () => {
 
 const CharacterDetails = () => {
   return (
-    <div>
+    <div className="scroll_bar max-h-screen overflow-auto">
       <div className="w-full rounded-2xl border-2 border-[#2B2B2D] bg-[#0F0F13] p-3 sm:p-4 lg:p-5 2xl:p-7">
         <div className="flex items-start justify-between">
           <h3 className="flex items-center gap-2 text-base font-semibold text-white md:text-lg 2xl:text-xl">
