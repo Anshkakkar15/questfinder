@@ -18,7 +18,7 @@ export default function Profile() {
 
 const CharacterAvatar = () => {
   return (
-    <div className="relative mx-auto max-h-[575px] max-w-[400px] overflow-hidden rounded-2xl xl:max-h-[500px] xl:max-w-full 2xl:max-h-[650px] 3xl:max-h-[800px]">
+    <div className="relative mx-auto max-h-[575px] max-w-[400px] overflow-hidden rounded-2xl xl:max-h-[500px] xl:max-w-full 2xl:max-h-[700px] 3xl:max-h-[800px]">
       <Image
         src={ASSETS.MONSTER_IMG}
         alt="monster"
